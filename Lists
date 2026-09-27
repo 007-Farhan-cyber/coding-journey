@@ -1,0 +1,19 @@
+#1
+numbers = [10, 20, 30, 40, 50]
+print(numbers[0])
+
+#2
+fruits = ["apple", "banana", "cherry"]
+print(len(fruits))
+
+#3
+for fruit in fruits:
+    print(fruit)
+
+#4
+number =[1, 4, 45, 62, 27, 23]
+print("The maximum number is:", max(number))
+print("The minimum number is:", min(number))
+print("The sum of the numbers is:", sum(number))
+print("The average of the numbers is:", sum(number) / len(number))
+print("The sorted list is:", sorted(number))
